@@ -31,6 +31,19 @@ Description: client library for the Music Player Daemon
  .
  This package contains the shared library.
 
+Package: libmpdclient2-dbg
+Section: libdevel
+Priority: extra
+Architecture: any
+Depends: libmpdclient2 (= ${binary:Version})
+Description: Debug symbols for libmpdclient2
+ libmpdclient provides an API for interfacing the Music Player Daemon (MPD). It
+ offers a low-level asynchronous API which knowns the MPD protocol syntax as
+ well as a higher level synchronous API implementing the MPD commands and
+ parsing all responses.
+ .
+ This package provides the debugging symbols for the shared library.
+
 Package: libmpdclient-doc
 Section: doc
 Architecture: all

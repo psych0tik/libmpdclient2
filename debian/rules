@@ -85,7 +85,7 @@ binary-arch: build install
 	dh_installchangelogs -a NEWS
 	dh_installdocs -a AUTHORS
 	dh_link -a
-	dh_strip -a
+	dh_strip -a --dbg-package=libmpdclient2-dbg
 	dh_compress -a
 	dh_fixperms -a
 	dh_makeshlibs -a
