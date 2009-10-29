@@ -1,0 +1,6 @@
+libmpdclient (2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #549646).
+
+ -- Sebastian Harl <tokkee@debian.org>  Thu, 22 Oct 2009 00:51:34 +0200
+
