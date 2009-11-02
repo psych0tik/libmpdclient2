@@ -32,7 +32,7 @@ Description: client library for the Music Player Daemon
  This package contains the shared library.
 
 Package: libmpdclient2-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: libmpdclient2 (= ${binary:Version})
