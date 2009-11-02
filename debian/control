@@ -11,7 +11,7 @@ Vcs-Browser: http://git.tokkee.org/?p=pkg-libmpdclient.git
 Package: libmpdclient-dev
 Section: libdevel
 Architecture: any
-Depends: libmpdclient2 (= ${binary:Version})
+Depends: libc6-dev | libc-dev, libmpdclient2 (= ${binary:Version})
 Description: client library for the Music Player Daemon (development files)
  libmpdclient provides an API for interfacing the Music Player Daemon (MPD). It
  offers a low-level asynchronous API which knowns the MPD protocol syntax as
