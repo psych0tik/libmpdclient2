@@ -49,6 +49,7 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_output_get_enabled@libmpdclient2 2.0
  mpd_output_get_id@libmpdclient2 2.0
  mpd_output_get_name@libmpdclient2 2.0
+ mpd_parse_sticker@libmpdclient2 2.1
  mpd_parser_feed@libmpdclient2 2.0
  mpd_parser_free@libmpdclient2 2.0
  mpd_parser_get_at@libmpdclient2 2.0
@@ -77,10 +78,12 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_recv_song_id@libmpdclient2 2.0
  mpd_recv_stats@libmpdclient2 2.0
  mpd_recv_status@libmpdclient2 2.0
+ mpd_recv_sticker@libmpdclient2 2.1
  mpd_recv_update_id@libmpdclient2 2.0
  mpd_response_finish@libmpdclient2 2.0
  mpd_response_next@libmpdclient2 2.0
  mpd_return_pair@libmpdclient2 2.0
+ mpd_return_sticker@libmpdclient2 2.1
  mpd_run_add@libmpdclient2 2.0
  mpd_run_add_id@libmpdclient2 2.0
  mpd_run_add_id_to@libmpdclient2 2.0
@@ -126,6 +129,8 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_run_single@libmpdclient2 2.0
  mpd_run_stats@libmpdclient2 2.0
  mpd_run_status@libmpdclient2 2.0
+ mpd_run_sticker_delete@libmpdclient2 2.1
+ mpd_run_sticker_set@libmpdclient2 2.1
  mpd_run_stop@libmpdclient2 2.0
  mpd_run_swap@libmpdclient2 2.0
  mpd_run_swap_id@libmpdclient2 2.0
@@ -201,6 +206,11 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_send_single@libmpdclient2 2.0
  mpd_send_stats@libmpdclient2 2.0
  mpd_send_status@libmpdclient2 2.0
+ mpd_send_sticker_delete@libmpdclient2 2.1
+ mpd_send_sticker_find@libmpdclient2 2.1
+ mpd_send_sticker_get@libmpdclient2 2.1
+ mpd_send_sticker_list@libmpdclient2 2.1
+ mpd_send_sticker_set@libmpdclient2 2.1
  mpd_send_stop@libmpdclient2 2.0
  mpd_send_swap@libmpdclient2 2.0
  mpd_send_swap_id@libmpdclient2 2.0
@@ -233,6 +243,7 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_status_get_audio_format@libmpdclient2 2.0
  mpd_status_get_consume@libmpdclient2 2.0
  mpd_status_get_crossfade@libmpdclient2 2.0
+ mpd_status_get_elapsed_ms@libmpdclient2 2.1
  mpd_status_get_elapsed_time@libmpdclient2 2.0
  mpd_status_get_error@libmpdclient2 2.0
  mpd_status_get_kbit_rate@libmpdclient2 2.0
