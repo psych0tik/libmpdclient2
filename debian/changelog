@@ -3,8 +3,11 @@ libmpdclient (2.1-1) unstable; urgency=low
   * New upstream release.
   * debian/libmpdclient2.symbols:
     - Updated for 2.1.
+  * debian/rules:
+    - Run 'make check' unless the nocheck option has been specified in
+      DEB_BUILD_OPTIONS.
 
- -- Sebastian Harl <tokkee@debian.org>  Sun, 27 Dec 2009 00:02:12 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Sun, 27 Dec 2009 00:09:08 +0100
 
 libmpdclient (2.0-1) unstable; urgency=low
 

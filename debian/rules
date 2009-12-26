@@ -19,6 +19,12 @@ else
 	CFLAGS += -O2
 endif
 
+CHECK = check
+
+ifneq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
+	CHECK =
+endif
+
 config.status: configure
 	dh_testdir
 	
@@ -35,6 +41,7 @@ build-stamp: config.status
 	dh_testdir
 	
 	$(MAKE)
+	test -z '$(CHECK)' || make $(CHECK)
 	
 	touch build-stamp
 
