@@ -1,3 +1,9 @@
+libmpdclient (2.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Sebastian Harl <tokkee@debian.org>  Sat, 26 Dec 2009 23:32:33 +0100
+
 libmpdclient (2.0-1) unstable; urgency=low
 
   * Initial release (Closes: #549646).
