@@ -101,6 +101,8 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_run_idle@libmpdclient2 2.0
  mpd_run_idle_mask@libmpdclient2 2.0
  mpd_run_load@libmpdclient2 2.0
+ mpd_run_mixrampdb@libmpdclient2 2.2
+ mpd_run_mixrampdelay@libmpdclient2 2.2
  mpd_run_move@libmpdclient2 2.0
  mpd_run_move_id@libmpdclient2 2.0
  mpd_run_move_range@libmpdclient2 2.0
@@ -174,6 +176,8 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_send_list_tag_types@libmpdclient2 2.0
  mpd_send_list_url_schemes@libmpdclient2 2.0
  mpd_send_load@libmpdclient2 2.0
+ mpd_send_mixrampdb@libmpdclient2 2.2
+ mpd_send_mixrampdelay@libmpdclient2 2.2
  mpd_send_move@libmpdclient2 2.0
  mpd_send_move_id@libmpdclient2 2.0
  mpd_send_move_range@libmpdclient2 2.0
@@ -247,6 +251,8 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_status_get_elapsed_time@libmpdclient2 2.0
  mpd_status_get_error@libmpdclient2 2.0
  mpd_status_get_kbit_rate@libmpdclient2 2.0
+ mpd_status_get_mixrampdb@libmpdclient2 2.2
+ mpd_status_get_mixrampdelay@libmpdclient2 2.2
  mpd_status_get_queue_length@libmpdclient2 2.0
  mpd_status_get_queue_version@libmpdclient2 2.0
  mpd_status_get_random@libmpdclient2 2.0

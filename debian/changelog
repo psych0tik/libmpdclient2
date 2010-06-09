@@ -1,8 +1,10 @@
 libmpdclient (2.2-1) unstable; urgency=low
 
   * New upstream release.
+  * debian/libmpdclient2.symbols:
+    - Updated for 2.2.
 
- -- Sebastian Harl <tokkee@debian.org>  Wed, 09 Jun 2010 10:48:06 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Wed, 09 Jun 2010 18:09:00 +0200
 
 libmpdclient (2.1-1) unstable; urgency=low
 
