@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Sebastian Harl <tokkee@debian.org>
 Build-Depends: debhelper (>= 7), autotools-dev, doxygen
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://mpd.wikia.com/wiki/ClientLib:libmpdclient
 Vcs-Git: git://git.tokkee.org/pkg-libmpdclient.git
 Vcs-Browser: http://git.tokkee.org/?p=pkg-libmpdclient.git
