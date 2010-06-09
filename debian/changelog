@@ -6,8 +6,11 @@ libmpdclient (2.2-1) unstable; urgency=low
   * debian/control:
     - Updated to standards-version 3.8.4 -- no changes.
     - Let all packages depend on ${misc:Depends}, as suggested by debhelper.
+  * debian/rules:
+    - Let dh_makeshlibs create a dependency on libmpdclient2 >= 2.2, which is
+      required since new functionality has been added.
 
- -- Sebastian Harl <tokkee@debian.org>  Wed, 09 Jun 2010 18:11:25 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Wed, 09 Jun 2010 18:44:12 +0200
 
 libmpdclient (2.1-1) unstable; urgency=low
 

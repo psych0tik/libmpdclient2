@@ -95,7 +95,7 @@ binary-arch: build install
 	dh_strip -a --dbg-package=libmpdclient2-dbg
 	dh_compress -a
 	dh_fixperms -a
-	dh_makeshlibs -a
+	dh_makeshlibs -a -V 'libmpdclient2 (>= 2.2)'
 	dh_installdeb -a
 	dh_shlibdeps -a
 	dh_gencontrol -a
