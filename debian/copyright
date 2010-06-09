@@ -59,7 +59,7 @@ text of the latest version can be found in `/usr/share/common-licenses/GPL'.
 	modifications, as long as this notice is preserved.
 
 	All other files:
-	Copyright © 2003-2009 The Music Player Daemon Project
+	Copyright © 2003-2010 The Music Player Daemon Project
 
 	Redistribution and use in source and binary forms, with or without
 	modification, are permitted provided that the following conditions
@@ -92,7 +92,7 @@ text of the latest version can be found in `/usr/share/common-licenses/GPL'.
 	while any others are licensed under the 2-clause BSD License, which does
 	not include the third (endorsement / promotion) clause.
 
-The Debian packaging is © 2009, Sebastian Harl <tokkee@debian.org> and is
+The Debian packaging is © 2009-2010, Sebastian Harl <tokkee@debian.org> and is
 licensed under the 2-clause BSD License, see above (without the endorsement /
 promotion clause).
 
