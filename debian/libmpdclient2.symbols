@@ -225,9 +225,11 @@ libmpdclient.so.2 libmpdclient2 #MINVER#
  mpd_song_feed@libmpdclient2 2.0
  mpd_song_free@libmpdclient2 2.0
  mpd_song_get_duration@libmpdclient2 2.0
+ mpd_song_get_end@libmpdclient2 2.3
  mpd_song_get_id@libmpdclient2 2.0
  mpd_song_get_last_modified@libmpdclient2 2.0
  mpd_song_get_pos@libmpdclient2 2.0
+ mpd_song_get_start@libmpdclient2 2.3
  mpd_song_get_tag@libmpdclient2 2.0
  mpd_song_get_uri@libmpdclient2 2.0
  mpd_song_set_pos@libmpdclient2 2.0
