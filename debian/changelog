@@ -1,8 +1,11 @@
 libmpdclient (2.3-1) unstable; urgency=low
 
   * New upstream release.
+    - Do not try to install GIF files from doc/api/html/ if none are available
+      (doxygen no longer creates any GIF files since version 1.7 or so)
+      (Closes: #590397).
 
- -- Sebastian Harl <tokkee@debian.org>  Thu, 29 Jul 2010 20:24:22 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Thu, 29 Jul 2010 20:28:25 +0200
 
 libmpdclient (2.2-1) unstable; urgency=low
 
