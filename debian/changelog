@@ -1,3 +1,9 @@
+libmpdclient (2.7~psych0tik.1) unstable; urgency=low
+
+  * Build upstream git sources
+
+ -- Rich Healey <richo@psych0tik.net>  Wed, 11 Jan 2012 10:33:04 +1100
+
 libmpdclient (2.3-1) unstable; urgency=low
 
   * New upstream release.
