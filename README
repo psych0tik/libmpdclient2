@@ -11,3 +11,11 @@ doxygen.  You may browse it online:
 
 libmpdclient is released under the revised BSD License.
 For the full license, see COPYING.
+
+--
+
+NB: The required git mirrors for this to work are
+debian          git://git.tokkee.org/pkg-libmpdclient.git
+origin          git@github.com:richoH/libmpdclient2.git
+upstream        git://git.musicpd.org/master/libmpdclient.git/
+
