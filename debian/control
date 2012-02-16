@@ -47,7 +47,7 @@ Description: Debug symbols for libmpdclient2
 
 Package: libmpdclient-doc
 Section: doc
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}
 Description: client library for the Music Player Daemon (API documentation)
  libmpdclient provides an API for interfacing the Music Player Daemon (MPD). It
